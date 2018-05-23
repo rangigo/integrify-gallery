@@ -579,7 +579,7 @@ my_data =
     "lastName": "Rana",
     "title": "Front-end Web developer Trainee",
     "nationality": "Indian",
-    "src": "Aditya Rana.jpg",
+    "src": "Aditya_Rana.jpg",
     "alt": "Mypic",
     "skills": ["HTML5", "CSS3", "SASS", "Bootstrap", "javascript", "jquery"],
     "whySofterDeveloper": "I am passionate about the user interfaces",
