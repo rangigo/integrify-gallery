@@ -4,37 +4,16 @@ $(document).ready(function() {
   const cols = 7 //change this also in css
   const staggerTime = 150
 
-  const urls = [
-    'https://kiyutink.github.io/nyc/nyc1.jpg',
-    'https://kiyutink.github.io/nyc/nyc2.jpg',
-    'https://kiyutink.github.io/nyc/nyc3.jpg',
-    'https://kiyutink.github.io/nyc/nyc4.jpg',
-    'https://kiyutink.github.io/nyc/nyc5.jpg',
-    'https://kiyutink.github.io/london/london1.jpg',
-    'https://kiyutink.github.io/london/london2.jpg',
-    'https://kiyutink.github.io/london/london3.jpg',
-    'https://kiyutink.github.io/madrid/madrid1.jpg',
-    'https://kiyutink.github.io/madrid/madrid2.jpg',
-    'https://kiyutink.github.io/madrid/madrid3.jpg',
-    'https://kiyutink.github.io/beijing/beijing1.jpg',
-    'https://kiyutink.github.io/beijing/beijing2.jpg',
-    'https://kiyutink.github.io/beijing/beijing3.jpg',
-    'https://kiyutink.github.io/moscow/moscow1.jpg',
-    'https://kiyutink.github.io/moscow/moscow2.jpg',
-    'https://kiyutink.github.io/moscow/moscow3.jpg',
-    'https://kiyutink.github.io/sidney/sidney1.jpg',
-    'https://kiyutink.github.io/sidney/sidney2.jpg',
-    'https://kiyutink.github.io/sidney/sidney3.jpg',
-    'https://kiyutink.github.io/tokyo/tokyo1.jpg',
-    'https://kiyutink.github.io/tokyo/tokyo2.jpg',
-    'https://kiyutink.github.io/tokyo/tokyo3.jpg',
-    'https://kiyutink.github.io/la/la3.jpg'
-  ]
+  const urls = []
 
-  var $gallery = $('.demo__gallery')
-  var $help = $('.demo__help')
-  var partsArray = []
-  var reqAnimFr = (function() {
+  my_data.forEach(el => {
+    urls.push(`https://raw.githubusercontent.com/rangigo/integrify-gallery/master/optimizilla/${el.src}`)
+  })
+
+  const $gallery = $('.demo__gallery')
+  const $help = $('.demo__help')
+  let partsArray = []
+  const reqAnimFr = (function() {
     return (
       window.requestAnimationFrame ||
       function(cb) {
@@ -53,9 +32,9 @@ $(document).ready(function() {
     }
   }
 
-  var $parts = $('.demo__part')
-  var $image = $('.demo__part-back-inner')
-  var help = true
+  const $parts = $('.demo__part')
+  const $image = $('.demo__part-back-inner')
+  let help = true
 
   for (let i = 0; i < $parts.length; i++) {
     $parts
@@ -116,7 +95,7 @@ $(document).ready(function() {
     this.showing = 'front'
   }
 
-  function waveChange(rowN, colN) {
+  function waveChange(rowN, colN) {   
     if (rowN > rows || colN > cols || rowN <= 0 || colN <= 0) return
     if (partsArray[rowN - 1][colN - 1].showing == 'back') return
     $('.demo__part-' + rowN + '-' + colN).removeClass('show-front')
@@ -130,8 +109,3 @@ $(document).ready(function() {
   }
 })
 
-console.log(my_data)
-
-my_data.forEach(element => {
-  element.src = `./optimizilla/${element.src}`
-})

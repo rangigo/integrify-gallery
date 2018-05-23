@@ -157,7 +157,7 @@ my_data =
     "lastName": "Vo",
     "title": "Junior Web Developer",
     "nationality": "Vietnamese",
-    "src": "Hoang Anh.jpg",
+    "src": "Hoang_Anh.jpg",
     "alt": "Anh Vo",
     "skills": [
       "Javascript",
@@ -280,7 +280,7 @@ my_data =
     "lastName": "Alabi",
     "title": "Developer",
     "nationality": "Nigeria",
-    "src": "Olujuwon Ayoseyi.jpg",
+    "src": "Olujuwon_Ayoseyi.jpg",
     "alt": "Olujuwon Ayoseyi",
     "skills": [
       "Javascript",
@@ -336,7 +336,7 @@ my_data =
     "lastName": "Bidari",
     "title": "Junior Developer",
     "nationality": "Nepalese",
-    "src": "Jaya Kumar.jpg",
+    "src": "Jaya_Kumar.jpg",
     "alt": "I bet,Jaya is here",
     "skills": [
       "HTML5",
@@ -436,7 +436,7 @@ my_data =
     "lastName": "Leung",
     "title": "Trainee Web Developer",
     "nationality": "Hong Kong",
-    "src": "Pok Tik Benjamin.jpg",
+    "src": "Pok_Tik_Benjamin.jpg",
     "alt": "poktikbenjamin.jpg",
     "skills": ["JavaScript", "CSS", "HTML", "Java", "Business Development"],
     "whySofterDeveloper":
@@ -470,7 +470,7 @@ my_data =
     "lastName": "Le",
     "title": "Student",
     "nationality": "Vietnam",
-    "src": "Nghia Niko.jpg",
+    "src": "Nghia_Niko.jpg",
     "alt": "Niko",
     "skills": ["SASS", "Javascript", "React", "Redux", "Java", "SQL"],
     "whySofterDeveloper": "Because I like coding",
@@ -663,7 +663,7 @@ my_data =
     "lastName": "Mujawar",
     "title": "Junior Front-end Developer",
     "nationality": "Indian",
-    "src": "Arifa Begam.jpg",
+    "src": "Arifa_Begam.jpg",
     "alt": "arifa",
     "skills": [
       "HTML5",
