@@ -322,7 +322,7 @@ my_data =
     "lastName": "Dang",
     "title": "Trainee",
     "nationality": "Vietnam",
-    "src": "Quoc Viet.jpg",
+    "src": "Quoc_Viet.jpg",
     "alt": "Quoc Viet Dang",
     "skills": ["HTML", "CSS", "JavaScript"],
     "whySofterDeveloper": "I love web development ",
