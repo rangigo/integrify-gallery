@@ -205,6 +205,7 @@ my_data =
     "favoriteQuote": "Do not go gentle into the good night",
     "joinedOn": "31.01.2018"
   },
+  //remove start
   {
     "firstName": "Mohamed",
     "lastName": "Musse Farah",
@@ -221,6 +222,7 @@ my_data =
     "favoriteQuote": "Say hello to my little friend.",
     "joinedOn": "04.12.2017"
   },
+  //remove end
   {
     "firstName": "Abdirahman",
     "lastName": "Ali",
@@ -261,6 +263,7 @@ my_data =
       "The secret of your success is determined by your daily agenda.",
     "joinedOn": "04/12/2017"
   },
+  //remove start
   {
     "firstName": "Abdirahmaan",
     "lastName": "Ahmed",
@@ -275,6 +278,7 @@ my_data =
     "favoriteQuote": "Rome was not built in a day!",
     "joinedOn": "04-12-2017"
   },
+  //remove end
   {
     "firstName": "Olujuwon Ayoseyi",
     "lastName": "Alabi",
@@ -302,19 +306,34 @@ my_data =
     "favoriteQuote": "..I can't please you...",
     "joinedOn": "04-12-2017"
   },
-
+//remove start
+  // {
+  //   "firstName": "Hussen",
+  //   "lastName": "Asir",
+  //   "title": "Junior developer",
+  //   "nationality": "Finnish",
+  //   "src": "Hussen.jpg",
+  //   "alt": "Hussen Asir",
+  //   "skills": ["HTML", "CSS", "JavaScript", "Jquery"],
+  //   "whySofterDeveloper": "to be able to do more with my creativity",
+  //   "longTermVision": "Entrepreneur",
+  //   "motivatesMe": "being closer to my goals after each step",
+  //   "favoriteQuote": "what doesen't kill you makes you stronger",
+  //   "joinedOn": "04-12-2017"
+  // },
+  //remove end
   {
-    "firstName": "Hussen",
-    "lastName": "Asir",
-    "title": "Junior developer",
-    "nationality": "Finnish",
-    "src": "Hussen.jpg",
-    "alt": "Hussen Asir",
-    "skills": ["HTML", "CSS", "JavaScript", "Jquery"],
-    "whySofterDeveloper": "to be able to do more with my creativity",
-    "longTermVision": "Entrepreneur",
-    "motivatesMe": "being closer to my goals after each step",
-    "favoriteQuote": "what doesen't kill you makes you stronger",
+    "firstName": "Nizar",
+    "lastName": "Rahme",
+    "title": "Programming teacher",
+    "nationality": "",
+    "src": "Nizar.jpg",
+    "alt": "Nizar Rahme",
+    "skills": [],
+    "whySofterDeveloper": "",
+    "longTermVision": "",
+    "motivatesMe": "",
+    "favoriteQuote": "",
     "joinedOn": "04-12-2017"
   },
   {
@@ -733,5 +752,21 @@ my_data =
     "favoriteQuote":
       "I walk slowly, but I never walk backward - Abraham Lincoln",
     "joinedOn": "20-04-2018"
+  },
+  {
+    "firstName": "Abdi",
+    "lastName": "Muleta",
+    "title": "Developer and Partnerships Lead",
+    "nationality": "Ethiopian",
+    "src": "Abdi.jpg",
+    "alt": "Abdi Muleta",
+    "skills": ["HTML5", "CSS3", "Javascript", "Python", "R", "Photoshop"],
+    "whySofterDeveloper":
+      "To gain the best experiences and to get on top of my technical skills so I would be better equipped to run my own business.",
+    "longTermVision": "Serial entrepreneur and investor",
+    "motivatesMe": "Disrupting the status quo",
+    "favoriteQuote":
+      "If you want to succeed you should strike out on new paths, rather than travel the worn paths of accepted success.",
+    "joinedOn": "16.04.2018"
   }
 ]
